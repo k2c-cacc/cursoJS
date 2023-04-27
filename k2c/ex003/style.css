@@ -1,0 +1,48 @@
+li {
+    color: red;
+}
+
+p, li {
+    color: green;
+    /* k2c
+    font-size: 20px;
+    font-weight: bold;
+    */
+}
+
+li {
+    /*
+   list-style-type: none;
+   */
+}
+
+.special {
+    color: orange;
+    font-weight: bold;
+}
+
+li em { /* <em> que está dentro (um descendente de) um <li> */
+   color: rebeccapurple;
+}
+
+h1 + p {/* parágrafo quando ele vem diretamente após um título */
+    font-size: 200%;
+}
+
+a:link { /* estilizar coisas com base em seu estado */
+    color: pink;
+}
+
+a:visited { /* estilizar coisas com base em seu estado */
+    color: green;
+}
+
+a:hover { /* Remove o sublinhado do link ao passar o mouse */
+    text-decoration: none;
+}
+
+body h1 + p .special { /* qualquer elemento com a classe special, que está dentro de um <p>, que vem logo após um <h1>, que está dentro de um <body> */
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}

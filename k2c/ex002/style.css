@@ -1,0 +1,32 @@
+
+* { /* Reset CSS */
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+h1, p {
+    color: blueviolet;
+}
+
+li {
+    list-style-type: none;
+    ;
+}
+
+.especial {
+    color: orange;
+    /*width: 15px;*/
+   font-weight: bold;
+}
+

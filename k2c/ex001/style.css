@@ -1,0 +1,19 @@
+body {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+div + div {
+    /* adiciona algum espaço entre cada elemento */    margin-top: 1em;
+}
