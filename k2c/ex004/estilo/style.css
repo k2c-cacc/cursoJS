@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    margin: 0;
+    place-content: center;
+    background: #222;
+
+}
+
+button {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    cursor: pointer;
+    padding: 20px 45px;
+    color: #fff;
+    background: linear-gradient(90deg, #0000 33%, #e97f02 );
+    text-shadow: calc(var(--_i, -1)* 0.3);
+    border: none;
+    outline-offset: .1em;
+    transition: .3s;
+}
+
+button:hover,
+button:focus-visible {
+    --_p: 0%;
+    --_i: 10%;
+}
