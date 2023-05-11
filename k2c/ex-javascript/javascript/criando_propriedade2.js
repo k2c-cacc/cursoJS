@@ -4,11 +4,11 @@ var novo_curso = Object.create(curso);
 
 novo_curso.carga_horaria = 36;
 
-console.log("Criando Propriedade 2");
+console.log("Propriedade nova no objeto não adicionada no Protótipo");
 
-console.log(novo_curso.sigla);
+console.log(curso.sigla);
 
-console.log(novo_curso.nome);
+console.log(curso.nome);
 
-console.log(novo_curso.carga_horaria);
+console.log(curso.carga_horaria);
 

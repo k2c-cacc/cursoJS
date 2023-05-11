@@ -2,9 +2,10 @@ var curso = {sigla: "k11", nome: "Orientação a Objetos em Java"}
 
 var novo_curso = Object.create(curso);
 
+// Propriedade adicionada protótipo
 curso.carga_horaria = 36;
 
-console.log("Criando Propriedade 1");
+console.log("Propriedade nova no Protótipo adicionada no objeto");
 
 console.log(novo_curso.sigla);
 
