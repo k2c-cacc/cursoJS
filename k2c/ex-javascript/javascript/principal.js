@@ -28,6 +28,7 @@ console.log(s2) */
 console.log(1 + 2 + 3 + " testando ");
 console.log(" testando " + 1 + 2 + 3);
 */
+
 var i = 10;
 
 var j = ++i + i--;
